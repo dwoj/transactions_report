@@ -1,19 +1,19 @@
 # transactions_report
 Transactions report created with FastAPI
 
-# REQUIREMENTS:
+## REQUIREMENTS:
 - python 3.9
 - uvicorn 
 
-# How to run? 
+## How to run? 
 1. Clone repository
 2. In transactions_report folder run command: `pip3 install -r requirements.txt`
 3. Run command: `uvicorn app:app --reload` (for macOS `python3 -m uvicorn app:app --reload`)
 4. Make POST request with a body example below
 
-# Endpoint: POST /report
+## Endpoint: POST /report
 Example request body:
-{
+```{
     "pay_by_link": [
         {
             "created_at": "2021-05-13T01:01:43-08:00",
@@ -52,5 +52,5 @@ Example request body:
             "card_number": 1111111111111111
         }
     ]
-}
+}```
 

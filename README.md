@@ -13,7 +13,8 @@ Transactions report created with FastAPI
 
 ## Endpoint: POST /report
 Example request body:
-```{
+```
+{
     "pay_by_link": [
         {
             "created_at": "2021-05-13T01:01:43-08:00",
@@ -53,4 +54,4 @@ Example request body:
         }
     ]
 }
-
+```

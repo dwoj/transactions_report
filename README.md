@@ -52,5 +52,5 @@ Example request body:
             "card_number": 1111111111111111
         }
     ]
-}```
+}
 
